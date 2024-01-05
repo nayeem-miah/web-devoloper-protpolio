@@ -1,0 +1,46 @@
+/* common shared stayls */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-style: normal;
+    font-weight: 700;
+    color:#fff;
+    padding:15px 35px;
+}
+
+/* nav realated stayls */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tytle{
+    color: #181818;
+
+    
+    font-size: 45px;
+    
+    font-weight: 800;
+    
+}
+nav > ul{
+    display:flex;
+   
+}
+nav li{
+    list-style:none;
+    margin-right:50px;
+}
+nav a{
+    text-decoration:none;
+    color:#474747;
+}
