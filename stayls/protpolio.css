@@ -173,7 +173,24 @@ main section{
 /* footer stayls */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+}
+.footer-column{
+    width:50%;
+}
+.contact input[type="text"],.contact input[type="email"],
+.contact input,textarea{
+    display:block;
+    margin-bottom: 25px;
+    color: #181818;
+    border-radius: 5px;
+    background:  #FFF;
+    border:0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }
