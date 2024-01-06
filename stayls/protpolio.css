@@ -62,9 +62,10 @@ nav a{
 /* header realated styles */
 .header{
     background-color: #fff8f3;
-    background-image:url('../images/header_bg.png');
+    background-image:url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right,top left;
+   
 }
 .banner{
     padding:30px 30px 0px 150px;
@@ -192,5 +193,5 @@ footer{
     width: 100%;
 }
 .social-links a{
-    margin-right: 25px;
+    margin-right: 25px
 }
